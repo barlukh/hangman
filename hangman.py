@@ -1,10 +1,4 @@
-"""
-*Welcome to play the 'Hangman' game! This is my first project ever after studying Python for a month.*
-The computer generates a hidden random word (noun) and the player tries to reveal the word by guessing the letters of the word.
-The player can see the length of the word and the revealed letters in their respective positions.
-If a guess is wrong, the computer proceeds to draw a part of a 'Hangman'. Revealed letters are drawn to their positions.
-If the computer completes the drawing, the player loses. The player wins if he reveals the whole word before he is 'hanged'.
-"""
+""" Welcome to play the 'Hangman' game! """
 
 from wonderwords import RandomWord
 from string import ascii_lowercase
@@ -43,7 +37,7 @@ def new_game():
                 if "_" not in masked_word:
                     hangman_drawing(wrong_answers)
                     word_drawing(masked_word)
-                    print(f'"You got all the letters, the word was indeed \'{"".join(masked_word)}\'."')
+                    print(f'"You got all the letters, the word was indeed \'{"".join(word)}\'."')
                     print("")
                     break
             else:
@@ -52,7 +46,7 @@ def new_game():
                 print("")
                 print(f'"What a shame, letter \'{user_letter}\' is a wrong guess!"')
         else:
-            print('"How is it hangin\', outlander? Do you want to try again, or are you a chicken?"')
+            print(f'"How is it hangin\', outlander? The word was \'{"".join(word)}\'. Do you want to try again, or are you a chicken?"')
             print("")
             break     
 
@@ -106,7 +100,7 @@ def help():
     print("0 : exit\n")
 
 def player_input(player_name: str):
-    """ Calls to print operational commands from help() function and asks the player for an input. """
+    """ Calls to print operational commands from the help() function and asks the player for an input. """
     while True:
         help()
         try:
@@ -120,7 +114,7 @@ def player_input(player_name: str):
         if player_command != 0 and player_command != 1:
             separator()
             print("")
-            print("Wrong choice, only 0 or 1 allowed.")
+            print("Wrong choice, only 1 or 0 allowed.")
             print("")
         elif player_command == 0:
             separator()
