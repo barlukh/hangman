@@ -7,7 +7,7 @@ The code has docstrings and is trying to follow the 'separation of concerns' pri
 
 
 The computer picks a word from the Wonderwords module, and the player tries to guess the letters of the word.
-If the player guesses a letter that is not present in the word, the computer draws a piece of a hangman figure.
+If the player guesses a letter that is not present in the word, the computer draws a piece of the Hangman figure.
 Once fully drawn, the player loses. The code repeats but gives the option to the player to exit after the game.
 The player input is protected to only insert valid parameters. The game also has some role-playing text for some flavour.
 
