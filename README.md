@@ -1,4 +1,4 @@
-## About Hangman
+## About
 
 This is a simple game of Hangman. It is my first project ever, after a month of studying Python. The game is only text-based in the command line. It has simple functionality that can be expanded.
 I mainly tried to test my current skills, and write a coherent and somehow clean code. The code has docstrings and is trying to follow the 'separation of concerns' principle with functions.
