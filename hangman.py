@@ -1,4 +1,4 @@
-""" Welcome to play the 'Hangman' game! """
+""" Welcome to play the Hangman game! Just run the code, function start() will execute automatically. """
 
 from wonderwords import RandomWord
 from string import ascii_lowercase
