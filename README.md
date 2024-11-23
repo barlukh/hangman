@@ -1,5 +1,5 @@
 ## Introduction
-A simple game of Hangman. My first project ever, after a month of studying Python. The game is only text-based in the command line. It has a simple functionality that can be potentially expanded.
+A simple game of Hangman. My first project ever, after a month of studying Python. The game is only text-based in the command line. It has a simple functionality and is a copy of the classic Hangman game.
 The main focus is on docstrings and trying to follow the 'separation of concerns' principle with functions. This is mainly a personal test at the time of writing to write a coherent and somehow clean code.
 
 ## Functionality
